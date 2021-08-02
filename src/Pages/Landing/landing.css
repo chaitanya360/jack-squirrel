@@ -1,0 +1,213 @@
+#slogan-section,
+#features-section {
+  font-family: "Montserrat", sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  color: white;
+  text-align: center;
+  padding: 0 5px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#slogan-section > .bg-img,
+#features-section > .bg-img {
+  height: 100vh;
+  width: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+#slogan-section .title {
+  font-weight: 700;
+  font-size: 2.3rem;
+}
+
+#slogan-section .sub-title {
+  font-weight: 500;
+  font-size: 1.2rem;
+  line-height: 1.9rem;
+  margin: 2rem 0px;
+}
+
+#features-section {
+  color: black;
+  justify-content: center;
+  align-items: unset;
+  text-align: left;
+  text-shadow: none;
+  font-family: "Open Sans", sans-serif;
+  padding: 0px 20px;
+}
+
+#features-section > .title {
+  color: rgb(54, 54, 54);
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+#features-section > .feature {
+  margin: 20px 0px;
+}
+
+#features-section > .feature > .feature-title {
+  color: rgb(54, 54, 54);
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin: 20px 0px;
+}
+
+#features-section > .feature > .feature-detail {
+  font-weight: 500;
+}
+
+#subscription-section {
+  font-family: "Open Sans", sans-serif;
+  background-color: var(--green);
+  color: white;
+}
+
+#subscription-section > .title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  padding: 2rem 1.3rem;
+}
+
+#subscription-section > .feature {
+  font-size: 1.2rem;
+  padding: 1.8rem;
+  display: grid;
+  grid-template-columns: 30px auto;
+}
+
+#subscription-section > .feature::before {
+  content: "";
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  background-color: white;
+  border-radius: 15px;
+  transform: translateY(10px);
+}
+
+#reward-card {
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  padding: 0.7rem 1rem;
+  margin-top: 2rem;
+}
+#reward-card > div > .reward-card-img {
+  width: 100%;
+  height: auto;
+}
+
+#reward-card > .text {
+  width: 90%;
+  text-align: center;
+  margin: auto;
+  margin-top: 5px;
+  font-weight: 600;
+}
+
+#reward-system-section {
+  background-color: white;
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem 1rem;
+  align-items: center;
+}
+
+#reward-system-section > .title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin: 0.8rem 0px;
+}
+
+#reward-system-section > .reward-card-container {
+  padding: 0px 2rem;
+}
+
+#get-started-section {
+  background-color: white;
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem 0px;
+}
+
+#get-started-section .title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin: 1rem 0px;
+  margin-bottom: 2rem;
+}
+
+#get-started-section > .item {
+  display: grid;
+  margin: 2rem 1.3rem;
+  text-align: justify;
+}
+
+#get-started-section > .item > .item-title {
+  font-weight: 600;
+  font-size: 1.3rem;
+}
+
+#get-started-section > .item > .item-text {
+  color: rgb(75, 74, 74);
+  grid-row: 2/3;
+  grid-column: 2/3;
+}
+
+#get-started-section > .item::before {
+  content: attr(item-count);
+  font-weight: 600;
+  grid-row: 1/3;
+  grid-column: 1/2;
+  font-size: 2rem;
+  display: inline-block;
+  padding: 0px 0.8rem;
+  border-radius: 100%;
+  border: 3px solid rgb(168, 167, 167);
+  color: rgb(160, 159, 159);
+  margin: 10px 20px;
+  margin-left: 0px;
+  height: fit-content;
+}
+
+#get-started-section > .btn {
+  color: black;
+  box-shadow: none;
+  border: 2px solid black;
+  margin-top: 1rem;
+}
+
+#mission-info {
+  font-family: "Montserrat", sans-serif;
+  background-color: black;
+  font-weight: 500;
+  padding: 2rem 5px;
+  text-align: center;
+  color: white;
+}
+
+#mission-info > .btn {
+  margin: 2rem 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#mission-info > .btn > .long-arrow {
+  display: block;
+  max-width: 150px;
+}

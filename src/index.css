@@ -1,0 +1,18 @@
+/* document colors */
+:root {
+  --blue: #105ed2;
+  --green: #017433;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(206, 207, 207);
+}
+
+#root {
+  max-width: 500px;
+  margin: auto;
+}

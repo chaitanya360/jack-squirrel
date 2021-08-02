@@ -1,0 +1,99 @@
+#app-header {
+  display: flex;
+  position: sticky;
+  background-color: white;
+  z-index: 10;
+  top: 0;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.8rem;
+  font-weight: 800;
+  font-size: 1.4rem;
+  align-items: center;
+  font-family: "MuseoModerno", cursive;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.274);
+}
+
+#menu-icon {
+  font-weight: bolder;
+}
+
+#action-btn {
+  background-color: white;
+  color: var(--blue);
+  font-weight: 700;
+  font-size: 1.3rem;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+  padding: 10px 40px;
+  text-shadow: none;
+  font-family: roboto;
+  width: fit-content;
+  height: fit-content;
+  cursor: pointer;
+}
+
+#footer {
+  font-family: "Open Sans", sans-serif;
+  background-color: black;
+  color: white;
+  padding: 1.2rem 0px;
+}
+
+#inline-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  margin: 0.5rem 0px;
+  color: black;
+  margin-top: 0.5rem;
+  padding: 0.5rem 0.5rem;
+  font-weight: 600;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+#inline-btn > .right-arrow {
+  font-size: 1rem;
+}
+
+#social-logins {
+  display: flex;
+  justify-content: space-around;
+  margin: 3rem auto;
+  padding: 1rem 1rem;
+  max-width: 300px;
+  border-top: 3px solid grey;
+}
+
+#social-logins > .social-btn-container {
+  background-color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+#social-logins > .social-btn-container > .social-btn {
+  color: black;
+  font-size: 2rem;
+}
+
+#footer > .logo {
+  font-family: "MuseoModerno", cursive;
+  font-weight: 600;
+  margin: 1rem;
+}
+
+#footer > .intro {
+  margin: 1rem;
+  font-size: 0.8rem;
+}
+
+#footer > .intro > .greetings {
+  margin-top: 4rem;
+}
